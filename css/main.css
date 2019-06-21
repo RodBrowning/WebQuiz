@@ -1,0 +1,57 @@
+.unidade {
+    margin: 1em 0 2em 0;
+}
+.unidade-sessoes {
+    
+display: flex;
+flex-wrap: wrap;
+}
+.sessao {
+    min-width: 50%;
+}
+.quadro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #ff8a22;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 3px;
+    min-height: 25px;
+    transition: border-left .35s;
+}
+.quadro:hover {
+    border-left: 2px solid #ff8a22;
+}
+.quadro a {
+    padding: 5px 10px;
+    color: darkslategrey;
+    text-decoration: none;
+    transition: background-color .35s, color .20s, margin-left .35s;
+}
+.quadro:hover a {
+    background-color: #ff8a22;
+    color: white;
+    margin-left: 5px;
+}
+.quadro p {
+    margin-left: 1rem;
+}
+.table {
+    display: none;
+}
+.table td {
+    padding: 0 6px;
+}
+.acertou {
+    color: green;
+}
+.errou {
+    color: red;
+}
+hr {
+    height: 1px;-color: #ff8a22;
+}

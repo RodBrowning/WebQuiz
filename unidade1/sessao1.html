@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desenvolvimento web</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/sessoes.css">
+    <link rel="stylesheet" href="../css/tabela.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="../index.html">
+                <div>
+                    <img src="../img/logo.png" alt="">
+                </div>
+            </a>
+        </figure>
+        <div id="titulo-materia">
+            <h1>Web Design</h1>
+        </div>
+    </header>
+    <main>
+        <div class="titulo-pagina">
+            <h2 id="unidade">Unidade 1</h2>
+            <h3 id="sessao">Sessao 1</h3>
+        </div>
+        <form action="">
+            <h3  class="pergunta">Durante as décadas de 1970 e 1980, os principais mecanismos de comunicação e acesso à informação via internet eram:</h3>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="0">FTP, Telnet, HTTP.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="1">Telnet, SMTP, HTTP.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="2">FTP, SMTP, HTTP
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="certa">FTP, Telnet, SMTP.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="4">Web, HTML, HTTP.
+                </div>
+            </label>
+        </form>
+            
+        <form action="">
+            <h3  class="pergunta">Segundo as técnicas mais recentes de desenvolvimento para a web, o foco dos websites e suas páginas deve ser:</h3>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="0">A empresa.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="1">O produto.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="2">A marca.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                        <input type="radio" name="resposta" value="3">A tecnologia.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                        <input type="radio" name="resposta" value="certa">O usuário.
+                </div>
+            </label>
+        </form>
+
+        <form action="">
+            <h3  class="pergunta">Qual evento do século XX foi o impulsionador da criação da internet?</h3>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="0">A Primeira Guerra Mundial.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="1">A Segunda Guerra Mundial.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="certa">A Guerra Fria.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                        <input type="radio" name="resposta" value="3">A Guerra do Vietnã.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                        <input type="radio" name="resposta" value="4">A Guerra do Golfo.
+                </div>
+            </label>
+        </form>
+
+        <div class="div-btn-conferir-refazer">
+            <div>
+                <button id="conferir">Conferir</button>
+            </div>
+            <div>
+                <button id="refazer">Refazer</button>
+            </div>
+        </div>
+        <div class="placar esconder-placar">
+            <h3>Total de perguntas da sessao</h3>
+            <table  cellspacing="0" cellpadding="0">
+                <tr>
+                    <th>Total</th>
+                    <th>Acertos</th>
+                    <th>Erros</th>
+                </tr>
+                <tr>
+                    <td id="total">0</td>
+                    <td id="acertos">0</td>
+                    <td id="erros">0</td>
+                </tr>
+            </table>
+        </div>
+        <div class="btn-home-div">
+            <a href="../index.html" class="btn-home">Home</a>
+        </div>
+    </main>
+</body>
+    <script src="../js/index.js"></script>
+</html>

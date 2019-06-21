@@ -1,0 +1,35 @@
+.tbl-integrantes {
+    margin: 0 !important;
+}
+.placar, .tbl-integrantes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ff8a22;
+    margin: 2em 0;
+}
+.placar table, .tbl-integrantes table {
+    align-self: center;
+    width: calc(17em + 13vw);
+    color: white;
+    border: 1px solid #ff8a22;
+    background-color: #ff8a22;
+    box-shadow: 0px 0px 11px -4px #00000040;
+}
+.placar table #acertos {
+    color:green;
+}
+.placar table #erros {
+    color:red;
+}
+.placar table tbody td, .tbl-integrantes table tbody td {
+    font-size: 20px;
+}
+.placar table tbody th, .placar table tbody td, .tbl-integrantes table tbody th, .tbl-integrantes table tbody td {
+    padding: 1em;
+}
+
+.placar table tbody tr:first-child, .tbl-integrantes table tbody tr:first-child {
+    background-color: white;
+    color: #ff8a22;
+}

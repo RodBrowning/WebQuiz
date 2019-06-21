@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desenvolvimento web</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/sessoes.css">
+    <link rel="stylesheet" href="../css/tabela.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="../index.html">
+                <div>
+                    <img src="../img/logo.png" alt="">
+                </div>
+            </a>
+        </figure>
+        <div id="titulo-materia">
+            <h1>Web Design</h1>
+        </div>
+    </header>
+    <main>
+        <div class="titulo-pagina">
+            <h2 id="unidade">Unidade 1</h2>
+            <h3 id="sessao">Sessao 4</h3>
+        </div>
+
+        <form action="">
+            <h3  class="pergunta">Nem todas as máquinas de busca são igualmente importantes para a visibilidade de um site. Qual a máquina de busca mais popular da web?</h3>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="certa">Google.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="1">Yahoo!
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="2">Duckduckgo.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="3">WhatsApp.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="4">Bing.
+                </div>
+            </label>
+        </form>
+
+        <form action="">
+            <h3  class="pergunta">Analise as asserções a seguir:
+                </br></br>
+                I. Os crawlers são responsáveis pela coleta e indexação de websites e páginas,
+                </br></br>
+                porque 
+                </br></br>
+                II. Caso um site não seja indexado, o mantenedor poderá solicitar a indexação junto ao site.
+                </br></br>
+                Analisando-se as asserções acima, conclui-se que:
+                </br></br>
+                Escolha uma:</h3>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="0">A primeira afirmação é verdadeira, e a segunda é falsa.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="1">As duas afirmações são verdadeiras, e a segunda justifica a primeira.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="certa">As duas afirmações são verdadeiras, e a segunda não justifica a primeira.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                        <input type="radio" name="resposta" value="3">A primeira afirmação é falsa, e a segunda é verdadeira.
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                        <input type="radio" name="resposta" value="4">As duas afirmações são falsas.
+                </div>
+            </label>
+        </form>
+
+        <form action="">
+            <h3  class="pergunta">Juquinha finalmente colocou seu site de taxidermia, ensinando como empalhar tilápias. Em uma busca por “como empalhar tilápias”, seu site apareceu em 12o lugar, ou seja, o segundo resultado da segunda página do Google. Que percentual dos cliques ele pode esperar de quem busca informações sobre o empalhamento de tilápias?
+            <br><br>
+            Escolha uma:</h3>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="certa">0,8% 
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="1">17,6%
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="2">32,5%
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="3">11,4%
+                </div>
+            </label>
+            <label>
+                <div class="alternativa">
+                    <input type="radio" name="resposta" value="4">1%
+                </div>
+            </label>
+        </form>
+        <div class="div-btn-conferir-refazer">
+            <div>
+                <button id="conferir">Conferir</button>
+            </div>
+            <div>
+                <button id="refazer">Refazer</button>
+            </div>
+        </div>
+
+        <div class="placar esconder-placar">
+            <h3>Total de perguntas da sessao</h3>
+            <table  cellspacing="0" cellpadding="0">
+                <tr>
+                    <th>Total</th>
+                    <th>Acertos</th>
+                    <th>Erros</th>
+                </tr>
+                <tr>
+                    <td id="total">0</td>
+                    <td id="acertos">0</td>
+                    <td id="erros">0</td>
+                </tr>
+            </table>
+        </div>
+        <div class="btn-home-div">
+            <a href="../index.html" class="btn-home">Home</a>
+        </div>
+    </main>
+</body>
+<script src="../js/index.js"></script>
+</html>

@@ -1,0 +1,126 @@
+main {
+    padding-top: 140px !important;
+}
+form {
+    width: 90%;
+    margin: 1em auto;
+}
+.titulo-pagina{
+    display: flex;
+    align-items: baseline;
+    border-bottom: 5px solid #ff8a22;
+}
+#unidade {
+    margin-right: 1rem;
+}
+.alternativa {
+    padding: 1rem;
+    border: 1px solid transparent;
+    transition: .35s all;
+}
+.alternativa:hover {
+    background-color: #ff8a22;
+}
+.selecionada {
+    background-color: #ff8a22;
+}
+label:hover {
+    cursor: pointer;
+}
+.div-btn-conferir-refazer {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.div-btn-conferir-refazer div {
+    width: 20%;
+}
+button, .btn-home-div{ 
+    width: calc(2em + 12vw);
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: darkgray;
+}
+
+.btn-home-div {
+    width: calc(4em + 3vw);
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    align-self: flex-end;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.div-btn-conferir-refazer div button {
+    height: 100%;
+    cursor: pointer;
+}
+button#conferir, .btn-integrantes-div {
+    background-color: white;
+    border: 1px solid #ff8a22;
+    color: #ff8a22;
+    transition: border .35s, color .35s, background-color .35s;
+}
+button#conferir:hover {
+    background-color: #ff8a22;
+    border: 0;
+    color: white;
+}
+button#conferir:disabled, button#conferir:disabled:hover {
+    border: 1px solid darkgray;
+    background-color: white;
+    color: darkgray;
+    cursor: default;
+}
+button#refazer, button#refazer:disabled:hover {
+    background-color: darkgray;
+    color: white;
+    transition: color .35s, background-color .35s;
+}
+button#refazer:disabled:hover { 
+    cursor: default;
+}
+.btn-home-div a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.btn-home-div a, .btn-home-div {
+    transition: color .35s, background-color .35s;
+}
+button#refazer:hover, .btn-home-div:hover {
+    background-color: white;
+    border: 1px solid darkgray;
+    color: darkgray;
+    
+}
+.btn-home-div:hover a {
+    color: darkgray;
+}
+
+.btn-integrantes-div {
+    text-align: center;
+    margin: .5em;
+    padding: .5em;
+    width: calc(14em + 10vw);
+    transition: all .35;
+}
+.btn-integrantes-div:hover {
+    background-color: #ff8a22;
+    border: 1px solid white;
+}
+.btn-integrantes-div a {
+    text-decoration: none;
+    color: #ff8a22;
+    font-weight: 600;
+    padding: 10px calc(4.5em + 5vw);
+    cursor: pointer;
+}
+.btn-integrantes-div:hover a {
+    color: white;
+}
